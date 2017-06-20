@@ -2,7 +2,7 @@
 A bacterial contig rearrangement system in genomic structure based on replication profiling
 
 ## Introduction 
-This is a software to rearrange
+Our strategy achieved contig rearrangement with intracellular DNA replication behaviour mechanisms and can be applied to almost all bacteria because the DNA replication system is commonly observed. Therefore, the results made it possible to understand the genomic structural information and long-range syntenic relationships from a draft genome based on short reads.
 
 ## Preparation
 This program does not require other modules. On the other hand, users should prepare two files (assembled contig file and read mapping file).
