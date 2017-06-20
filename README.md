@@ -18,9 +18,10 @@ An example of a procedure for preparing these files will be described below.
 ```
 spades.py -1 [read_R1.fq] -2 [read_R2.fq] -o [spades_outdir]
 ```
-#### Assembled congif file (In the case of SPAdes)
+#### Read mapping for coverage counting (In the case of bwa)
 ```
-spades.py -1 [read_R1.fq] -2 [read_R2.fq] -o [spades_outdir]
+bwa index [spades_outdir]/contigs.fasta
+bwa bwa [spades_outdir]/contigs.fasta [read_R1.fq]  [read_R2.fq]
 ```
 
 
