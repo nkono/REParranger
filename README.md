@@ -29,7 +29,7 @@ Usage:   perl eRParranger.pl <command> [options]
 Command: -c FILE       SPAdes contig file (format: FASTA)
          -s FILE       read mapped file on SPAdes contig (format: SAM)
          -l INT        minimum contig length [50000]
-	-o STR        output dir name [eRPoutput]
+	 -o STR        output dir name [eRPoutput]
 ```
 
 ```
