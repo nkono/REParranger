@@ -29,12 +29,15 @@ perl eRParranger.pl -c [spades_outdir]/contigs.fasta -s [mapped.sam] -l 50000 -o
 
 ### Output files
 This program generates some tsv and fasta format files.
-```
-*_appres.tsv] files have contig name, genomic position (start and end), coverage.
-*_coverage.tsv] file shave genomic position, coverage.
+
+[_appres.tsv] files have contig name, genomic position (start and end), coverage.
+
+[_coverage.tsv] file shave genomic position, coverage.
+
 [eRParranger.list] file has rearranged contig list.
-Here, contig_* files are generated based on inputted contig data, and eRParranger_* files are based on rearranged contig data.
-```
+
+Here, [contig_] files are generated based on inputted contig data, and [eRParranger_] files are based on rearranged contig data.
+
 
 
 
