@@ -27,6 +27,13 @@ bwa bwa [spades_outdir]/contigs.fasta [read_R1.fq]  [read_R2.fq] > [mapped.sam]
 perl eRParranger.pl -c [spades_outdir]/contigs.fasta -s [mapped.sam] -l 50000 -o [eRParranger_outdir]
 ```
 
+```
+Command: -c FILE       SPAdes contig file (format: FASTA)
+         -s FILE       read mapped file on SPAdes contig (format: SAM)
+         -l INT        minimum contig length [50000]
+       	 -o STR        output dir name [eRPoutput]
+```
+
 ### Output files
 This program generates some tsv and fasta format files.
 
