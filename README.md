@@ -32,7 +32,7 @@ This program generates some tsv and fasta format files.
 
 [_appres.tsv] files have contig name, genomic position (start and end), coverage.
 
-[_coverage.tsv] file shave genomic position, coverage.
+[_coverage.tsv] files have genomic position, coverage.
 
 [eRParranger.list] file has rearranged contig list.
 
