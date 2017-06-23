@@ -34,6 +34,8 @@ Command: -c FILE       SPAdes contig file (format: FASTA)
 
 perl eRParranger.pl -c [spades_outdir]/contigs.fasta -s [mapped.sam] -l 50000 -o [eRParranger_outdir]
 
+
+Example data is available from https://www.dropbox.com/sh/556hmiitwvgtpns/AACKc-9FNBxJghmfz2bvW1pJa?dl=0
 ```
 perl eRParranger.pl -c Example/1A1L1_ext1M_spades_contigs.fasta -s Example/1A1L1_ext1M_spades_1A1L1_ext1M.sam -o output
 ```
