@@ -48,6 +48,8 @@ This program generates some tsv and fasta format files.
 
 [_coverage.tsv] files have genomic position, coverage.
 
+[_tmp.fasta] files have concatenated contig sequence.
+
 [eRParranger.list] file has rearranged contig list.
 
 Here, [contig_] files are generated based on inputted contig data, and [eRParranger_] files are based on rearranged contig data.
