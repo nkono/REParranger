@@ -38,7 +38,7 @@ perl eRParranger.pl -c [spades_outdir]/contigs.fasta -s [mapped.sam] -l 50000 -o
 Example data is available from https://github.com/nkono/eRParranger/examples
 
 ```
-perl eRParranger.pl -c examples/WT_spades_contigs.fasta -s Example/1A1L1_ext1M_spades_1A1L1_ext1M.sam -o output
+perl eRParranger.pl -c examples/contigs/WTL1_spades_contigs.fasta -s examples/SAMs/WTL1_spades_WTL1_mapped.sam -o output
 ```
 
 
